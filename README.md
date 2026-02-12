@@ -19,34 +19,6 @@ The system is built on a modular Python architecture:
   - Generative AI for strategic context.
 - **Visualization**: Matplotlib for field mapping.
 
-## Setup & Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/drona-cricket-engine.git
-   cd drona-cricket-engine
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Configure Environment**
-   Create a `.env` file in the root directory:
-   ```env
-   CRICKET_API_KEY=your_rapidapi_key
-   CRICKET_API_HOST=cricbuzz-cricket.p.rapidapi.com
-   CRICKET_API_URL=https://cricbuzz-cricket.p.rapidapi.com/matches/v1/live
-   CRICKET_DETAIL_URL=https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1
-   GROQ_API_KEY=your_groq_api_key
-   ```
-
-4. **Launch Application**
-   ```bash
-   streamlit run app.py
-   ```
-
 ## Project Structure
 
 ```

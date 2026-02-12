@@ -212,7 +212,7 @@ else:
             wickets_in_hand
         )
 
-        strategy = coach_agent(
+        strategy=coach_agent(
             f"Need {required_runs} in {balls_left} balls. "
             f"Striker: {striker} ({batsman_runs} off {balls_faced}). "
             f"Wickets in hand: {wickets_in_hand}. "
